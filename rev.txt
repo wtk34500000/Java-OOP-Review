@@ -1,0 +1,102 @@
+Object: Object can be defined as an instance of the class.  It has state and behavior.
+
+Class: A class is a blueprint from which individual objects are created.
+
+Advantages of OOPs over Procedure Oriented Programming:
+OOPs makes development and maintenance easier wheres in a Procedure Oriented Programming language it not easy to manage if code grows as project size increases.
+OOPs provide data hiding whereas Procedure Oriented Programming language a global data can be accessed from anywhere.
+
+Constructor: Constructor is called when an instance is created.
+Types of constructors: 
+Default constructor - no argument
+Parameterized constructor - has argument
+
+Rules to creating a constructor:
+Constructor name must be the same as its class name.
+A constructor must have no return type.
+A Java constructor cannot be abstract, static, final, and synchronized.
+
+Constructor vs Method
+Constructor:
+A constructor is used to initialize the state of an object.
+A constructor must not have a return type.
+The constructor name must be the same as the class name.
+The Java complier provides a default constructor if you don't have any in class.
+Method:
+A Method is used to expose the behavior of an object.
+A method must have a return type.
+The method name may or may not be the same as class name.
+The method is not provided by the compiler in any case.
+
+OOP Pillars:
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+
+Inheritance: Inheritance is a mechanism in which new objects that are built upon existing classes.  Inheritance represents the IS-A relationship which is also known as a parent-child relationship.  we use the key word EXTENDS.
+
+Advantages of Inheritance:
+For code reusability
+For method overloading
+
+
+Polymorphism: Polymorphism is the ability of an object to take on many forms.  the most common use of polymorphism in OOP is when a parent class reference is used to refer to a child class object.
+
+Method Overloading: if a class has multiple methods having the same name but different parameter, it is known as method overloading.
+
+Different ways to overload a method:
+By changing the number of arguments
+by changing the data type
+
+Method Overriding: if subclass has the same method as declared in the parent class, it is known as method overriding.
+
+Method Overloading vs Method Overriding:
+Method Overloading:
+Parameter must be different.
+Return type can be same or different in method overloading.
+Method overloading is the example of compile time polymorphism.
+method overloading is performed within class.
+
+Method Overriding:
+Parameter must be same.
+Return type must be same.
+Method overriding is the example of runtime polymorphism.
+Method overriding occurs in two classes that have IS-A relationship.
+
+Encapsulation: Encapsulation is a process of wrapping code and data together into a single unit.  
+
+Advantages of Encapsulation: 
+It provides you the control over the data.
+It is a way to achieve data hiding because other class will not be able to access the data through the private data members.
+
+Access Modifier: There are 4 types
+Private
+protected
+Public 
+Default
+
+Abstraction: Abstraction is a process of hiding the implementation details and showing only the functionality to the user.
+
+Two way to achieve abstraction
+Abstract class
+Interface 
+
+Abstract class: a class is declared abstract is known as an abstract class.  it can have abstract and non-abstract methods.  it needs to be extended and its method implemented.  i cannot be instantiated.
+
+Abstract class
+Must be declared with a key word ABSTRACT
+It cannot be instantiated.
+It can have abstract and non-abstract methods
+It can have constructors and static methods
+
+Interface: An interface is a collection of abstract methods.  It only contains behaviors that a class implements.
+
+Interface 
+It cannot be instantiated.
+It does not contain any constructors
+It can only have static and final field
+It can extend multiple interface
+All methods in an interface are abstract
+An interface is not extended by a class, it is implemented by a class
+
