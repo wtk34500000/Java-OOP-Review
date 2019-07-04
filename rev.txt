@@ -57,7 +57,6 @@ Parameter must be different.
 Return type can be same or different in method overloading.
 Method overloading is the example of compile time polymorphism.
 method overloading is performed within class.
-
 Method Overriding:
 Parameter must be same.
 Return type must be same.
@@ -76,6 +75,12 @@ protected
 Public 
 Default
 
+
+
+
+
+
+
 Abstraction: Abstraction is a process of hiding the implementation details and showing only the functionality to the user.
 
 Two way to achieve abstraction
@@ -90,7 +95,7 @@ It cannot be instantiated.
 It can have abstract and non-abstract methods
 It can have constructors and static methods
 
-Interface: An interface is a collection of abstract methods.  It only contains behaviors that a class implements.
+Interface: An interface is a reference type in Java.  It is similar to a class.  It is a collection of abstract methods.  It only contains behaviors that a class implements.
 
 Interface 
 It cannot be instantiated.
@@ -100,3 +105,91 @@ It can extend multiple interface
 All methods in an interface are abstract
 An interface is not extended by a class, it is implemented by a class
 
+========================================================================
+
+While loop vs do while loop
+while loop runs zero to more times, do while loop runs at least one to more times.
+
+Static Keyword: 
+Static keyword in Java is mainly used for memory management. we can apply static keyword with variables, methods, blocks, and nested class.  The static keyword belongs to the class than an instance of the class.
+
+Final KeyWord:
+The final keyword can be applied with variables, methods and class.
+final variables cannot change value.
+final methods cannot override it
+Final class cannot Inheritance  
+
+
+Sting:
+Strings is a sequence of characters.  in Java, strings are treated as object.
+Packages:
+
+Order: package -> import -> class 
+
+
+Exceptions:
+Exceptions are event that occur during the execution of the programs.  Like divide by zero, array out of bound…
+
+Categories of the Exceptions:
+Checked Exceptions
+Unchecked Exceptions
+Error
+
+Checked Exceptions: are the exceptions that are checked at compile time.  E.g: when you try to read a file input and the path was incorrect, it will throws a filenotfound exception.
+
+Unchecked Exceptions: are the exceptions that are checked at run times. under error and runtime exceptions are unchecked, every thing else is checked.  
+e.g., let say u have an array of size 2 and u try to access the 3rd position. 
+
+Throw vs Throws
+Throws is used to postpone the handling of a checked exception and throw is used to invoke an exception explicitly.
+
+Array:
+Array is an object which contains element of the similar data type.  it is index base.  fixed size.
+
+Advatage:
+can access any of the data inside array by providing a index number
+
+Disadvantage:
+Size limited
+
+Collection:
+List -arrayist, linked list 
+Set - hash set
+Map - hash map
+
+=======================================================================
+
+
+
+
+
+DataBase:
+
+Database is a collection of information that is organized so that it can be easily accessed, managed and updated.
+
+Relational database is a type of database.  it is organized into tables.
+
+RDMS is a program to allow you to create, update and manage a relational database.
+
+SQL is a programing language to communicate with the database.
+
+Primary key contains unique value and cannot be null. one per table.
+
+Foreign key is a key to used to link table together. Also called referencing key.
+
+
+SQL Statements:
+DDL: data definition language - CREATE, ALTER, DROP
+DML: data manipulation language - SELECT, INSERT, UPDATE, DELETE
+DCL: data control language - GRANT, REVOKE
+TCL: transaction control language -ROLLBACK, SAVEPOINT, COMMIT
+
+========================================================================
+
+WEB:
+
+HTML: is a markup language for building website.
+
+CSS: is used to add styling to your website. Inline style, internal style and external style.
+
+Javascript: is the programming language for the Web.  it can update and change both html and css.  it can calculate, manipulate and validate data.
